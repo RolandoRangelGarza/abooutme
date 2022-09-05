@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(23, 23, 23);
+}
 h1 {
     background-color: mediumpurple;
     color: black;
@@ -28,14 +31,16 @@ h3{
 }
 p {
     font-size: 30px;
+    text-align: center;
+    color: wheat;
 }
 
 pre {
     font-size: 31px
 }
 
-img {
-    float: right;
-    margin-top: 0px;
-    margin-right: 100px;
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
