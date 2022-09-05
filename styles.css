@@ -57,3 +57,13 @@ div, iframe {
     height: 450px;
     margin: 0 auto;
 }
+
+address {
+    text-align: center;
+    color: wheat;
+    font-size: 25px;
+}
+
+a {
+    text-align: center;
+}
