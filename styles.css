@@ -13,5 +13,29 @@ h2 {
     background-color: white;
     font-family: sans-serif;
     text-align: center;
-    font-size: x-large;
+    font-size: 35px;
+}
+
+h3{
+    font-size: 30px;
+    background-color: lightpink;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+p {
+    font-size: 30px;
+}
+
+pre {
+    font-size: 31px
+}
+
+img {
+    float: right;
+    margin-top: 0px;
+    margin-right: 100px;
 }
