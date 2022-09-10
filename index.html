@@ -12,32 +12,39 @@
 <link rel="stylesheet" href="styles.css">
 <body>
     <header>
-        <h1>El rincón de Rola :D</h1>
-        <h2>Todo lo que necesitabas saber sobre la persona más fregona de Monterrey.</h2>
+        <img class="logo" src="logo.jpg" alt="logo" height="50px" width="500px">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Datos</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>Contacto</button></a>
     </header>
     <hr>
     <article>
         <!-- Descripción de persona -->
-        <h3 tabindex="1">¿Quién soy?</h3>
-        <hr >
+        <h3 id="quiensoy" tabindex="1">¿Quién soy?</h3>
+        <hr>
         <p>
-        ¡Hola! Me llamo Rolando. Pero odio
-        que me llamen por mi nombre completo.
-        Llámame "Rola" :)
-        <br>
-        — Tengo 19 años, casi 20.
-        <br>
-        — Estudio Tecnologías de Información
-        <br>
-        — Me gusta mucho el sushi
-        <br>
+            ¡Hola! Me llamo Rolando. Pero odio
+            que me llamen por mi nombre completo.
+            Llámame "Rola" :)
+            <br>
+            — Tengo 19 años, casi 20.
+            <br>
+            — Estudio Tecnologías de Información
+            <br>
+            — Me gusta mucho el sushi
+            <br>
         </p>
         <img class="center" src="https://scontent.fntr1-1.fna.fbcdn.net/v/t39.30808-6/259940579_4754786661232261_6299893618341009163_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFRJvBPwy8uuuCXnIyE8jAqvtCrXHtoKoK-0Ktce2gqgkpTeO7xkQEQacV4aa83cxQ1DWWeXNb6FJ6QBbf3QJaX&_nc_ohc=Bt9LyZyx1bkAX9ceuB3&_nc_ht=scontent.fntr1-1.fna&oh=00_AT_ztSIb4BAYqtlop1Aemeunq8V9IgTqoLLp9niuJvxQXg&oe=6319E829" width="415px" height="415px" alt="Yo mero el mero mero qlero">
         <br>
         <hr>        
     </article>
     <article>
-        <h3 tabindex="2">Mi artista favorito</h3>
+        <h3 id="artista" tabindex="2">Mi artista favorito</h3>
         <h4>Donald Glover</h4>
         <p>"Childish Gambino"</p>
         <img class="center" src="https://i.scdn.co/image/ab6761610000e5eb3ef779aa0d271adb2b6a3ded" alt="Childish Gambino" width="420px" height="420px">
@@ -45,13 +52,13 @@
         <hr>
     </article>
     <article>
-        <h3 tabindex="3">Video favorito de Youtube</h3>
+        <h3 id="videofav" tabindex="3">Video favorito de Youtube</h3>
         <br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/rG4MN_XVoR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <hr>
     </article>
     <article>
-        <h3>Videojuego favorito</h3>
+        <h3 id="vgame" tabindex="4">Videojuego favorito</h3>
         <h4>Stardew Valley</h4>
         <p>Lo juego en: Nintendo Switch</p>
         <img class="center" src="https://cdn.cloudflare.steamstatic.com/steam/apps/413150/capsule_616x353.jpg?t=1608624324" alt="Stardew Valley" width="700px" height="420px">
@@ -59,7 +66,7 @@
         <hr>
     </article>
     <article>
-        <h3>Mi carnal</h3>
+        <h3 id="micarnal" tabindex="5">Mi carnal</h3>
         <h4>Se llama Robe. Está pelón y levanta morritas los jueves.</h4>
         <img class="center" src="https://pbs.twimg.com/media/Fb3fSBMXgAAgrkc?format=jpg&name=large" alt="Mi carnal" width="350px" height="500px">
         <br>
@@ -72,7 +79,7 @@
         <address> Nuevo Léon, México.</address>
         <br>
         <hr>
-        <h3>Mis redes</h3>
+        <h3 id="contacto" tabindex="6">Mis redes</h3>
         <hr>
         <p>
             <a href="https://www.facebook.com/Rola.Rangel.G/">Facebook</a>
